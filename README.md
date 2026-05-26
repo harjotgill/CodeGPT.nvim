@@ -12,7 +12,7 @@ Installing with Lazy.
 
 ```lua
 {
-    "dpayne/CodeGPT.nvim",
+    "harjotgill/CodeGPT.nvim",
     dependencies = {
       'nvim-lua/plenary.nvim',
       'MunifTanjim/nui.nvim',
@@ -27,7 +27,7 @@ Installing with packer.
 
 ```lua
 use({
-   "dpayne/CodeGPT.nvim",
+   "harjotgill/CodeGPT.nvim",
    requires = {
       "MunifTanjim/nui.nvim",
       "nvim-lua/plenary.nvim",
@@ -43,7 +43,7 @@ Installing with plugged.
 ```vim
 Plug("nvim-lua/plenary.nvim")
 Plug("MunifTanjim/nui.nvim")
-Plug("dpayne/CodeGPT.nvim")
+Plug("harjotgill/CodeGPT.nvim")
 ```
 
 Installing OpenAI's tokenizer
